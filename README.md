@@ -7,6 +7,8 @@ Treinamento JUnit - Academia S2IT
 
 ## Framework
 - @Test
-- Asserts
+- Asserts - Afirmar
 - @BeforeClass
 - @Before
+- @After
+- @AfterClass

@@ -1,6 +1,7 @@
 package br.com.s2it.step1.calculadora;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -12,7 +13,8 @@ import br.com.s2it.calculadora.Calculadora;
  *
  * [] Convenções de testes
  * [] Apresentação @Test
- * [] Assert.assertEquals (Mensagens: explicação do esperado, esperado, atual:retorno) 
+ * [] Assert.assertEquals (Mensagens: explicação do esperado, esperado, atual:retorno)
+ * [] Assert.assertTrue 
  * [] Realizar testes de métodos simples explorando as 4 operações
  */
 public class CalculadoraTest {
@@ -43,5 +45,12 @@ public class CalculadoraTest {
 		Calculadora calculadora = new Calculadora();
 		
 		assertEquals("Deve fazer a divisão de 2 / 2 = 1 ",1, calculadora.divide(2,2));
+	}
+	
+	@Test
+	public void deveRetornarSeCalculou(){
+		
+		
+		assertTrue(false);
 	}
 }
