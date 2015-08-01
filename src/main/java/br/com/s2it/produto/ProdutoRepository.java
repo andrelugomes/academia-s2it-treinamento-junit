@@ -23,8 +23,16 @@ public class ProdutoRepository {
 	public Produto findById(int id) {
 
 		List<Produto> todosOsProdutos = findAll();
+		Produto produto = null;
 
-		// Array começa com index 0
-		return todosOsProdutos.get(id - 1);
+		try {
+			// Array começa com index 0
+			produto =  todosOsProdutos.get(id - 1);
+		} catch (IndexOutOfBoundsException e) {
+			System.out.println("Não achou o ID no indie do Array");
+			throw new IndexOutOfBoundsException();
+		}
+		
+		return produto;
 	}
 }

@@ -27,6 +27,7 @@ import br.com.s2it.utils.MyRule;
  * [] Inicando com Mocks - Evitar fazer a consulta no banco de dados. Exemplos 
  * [] @Ignore - não executa o teste 
  * [] @Rule - mudando o comportamento dos testes. Ex.: Tirar screenshots com Selenium
+ * [] Testar Exceptions. Ex.: @Test(expected = Exception.class)
  *
  */
 public class ProdutoBusinessTest {
@@ -68,5 +69,14 @@ public class ProdutoBusinessTest {
 		// Assert.assert....
 
 		Assert.assertThat("Deve dar 10% de desconto", produtoBusiness.podeDarDesconto(1), equalTo("Conceder 10%"));
+	}
+	
+	@Test
+	public void deveValidarAlgo() {
+		ProdutoRepository repo = new ProdutoRepository();
+		ProdutoBusiness produtoBusiness = new ProdutoBusiness(repo);
+		
+		int idNaoExiste = 34134134;
+		//produtoBusiness.listarPorId(idNaoExiste);
 	}
 }

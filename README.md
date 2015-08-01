@@ -20,6 +20,7 @@ Treinamento JUnit - Academia S2IT
 - @RunWith
 - @Ignore
 - @Rule - [Docs](https://github.com/junit-team/junit/wiki/Rules)
+- @Test(expected = Exception.class)
 
 # Hamcrest
 [https://code.google.com/p/hamcrest/wiki/Tutorial]
