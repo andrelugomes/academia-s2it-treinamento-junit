@@ -1,4 +1,4 @@
-package br.com.s2it.step1.calculadora;
+package br.com.s2it.calculadora.step1;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
