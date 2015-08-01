@@ -17,6 +17,9 @@ Treinamento JUnit - Academia S2IT
 - @After
 - @AfterClass
 - Asserts - Afirmar
+- @RunWith
+- @Ignore
+- @Rule - [Docs](https://github.com/junit-team/junit/wiki/Rules)
 
 # Hamcrest
 [https://code.google.com/p/hamcrest/wiki/Tutorial]
