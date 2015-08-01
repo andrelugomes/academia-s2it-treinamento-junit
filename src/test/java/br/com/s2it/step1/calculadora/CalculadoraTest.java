@@ -47,6 +47,10 @@ public class CalculadoraTest {
 		assertEquals("Deve fazer a divisão de 2 / 2 = 1 ",1, calculadora.divide(2,2));
 	}
 	
+	/**
+	 * Iniciando com TDD
+	 * [] Criar método que calcula calcula passando a operação. Ex.: cancula(a,b,"soma")
+	 */
 	@Test
 	public void deveRetornarSeCalculou(){
 		

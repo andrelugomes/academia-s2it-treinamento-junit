@@ -15,3 +15,13 @@ Treinamento JUnit - Academia S2IT
 
 # Hamcrest
 [https://code.google.com/p/hamcrest/wiki/Tutorial]
+
+- Matchers
+
+# Mockito
+[http://mockito.org/]
+
+- @Mock
+- @InjectMocks
+- .when()
+- .thenReturn()

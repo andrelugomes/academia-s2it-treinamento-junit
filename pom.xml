@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>academia-s2it-treinamento-junit</groupId>
+	<groupId>br.com.s2it</groupId>
 	<artifactId>academia-s2it-treinamento-junit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
@@ -14,12 +14,14 @@
 	</properties>
 
 	<dependencies>
+		<!-- JUnit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.10</version>
 		</dependency>
 
+		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
@@ -47,10 +49,18 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+		<!-- Matchers -->
 		<dependency>
 			<groupId>org.hamcrest</groupId>
 			<artifactId>hamcrest-junit</artifactId>
 			<version>2.0.0.0</version>
+		</dependency>
+
+		<!-- Mocks -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.10.19</version>
 		</dependency>
 
 	</dependencies>
