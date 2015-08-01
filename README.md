@@ -35,6 +35,21 @@ Treinamento JUnit - Academia S2IT
 - .when()
 - .thenReturn()
 
+# Spring
+
+## IoC
+Inversão de controle.
+-@Configuration
+-@ComponentScan(basePackages="br.com.s2it.spring")
+
+## Dependenci Injection
+Injeção de dependências.
+- @Autowired
+
+## Tests
+- @RunWith(SpringJUnit4ClassRunner.class)
+- @ContextConfiguration(classes=AppConfig.class)
+
 # Maven
 - Build lifecycle [Documentação oficial](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 	- validate - validate the project is correct and all necessary information is available
