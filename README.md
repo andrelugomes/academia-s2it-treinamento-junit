@@ -7,8 +7,11 @@ Treinamento JUnit - Academia S2IT
 
 ## Framework
 - @Test
-- Asserts - Afirmar
 - @BeforeClass
 - @Before
 - @After
 - @AfterClass
+- Asserts - Afirmar
+
+# Hamcrest
+[https://code.google.com/p/hamcrest/wiki/Tutorial]
