@@ -39,8 +39,8 @@ Treinamento JUnit - Academia S2IT
 
 ## IoC
 Inversão de controle.
--@Configuration
--@ComponentScan(basePackages="br.com.s2it.spring")
+- @Configuration
+- @ComponentScan(basePackages="br.com.s2it.spring")
 
 ## Dependenci Injection
 Injeção de dependências.
