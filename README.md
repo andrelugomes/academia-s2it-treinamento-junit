@@ -7,8 +7,25 @@ Treinamento JUnit - Academia S2IT
 ## Convensções
 
 ### Nome de Classes
+O nome da classe de teste deve ser o nome da classe a ser testada seguido do sufixo Test.
+Ex.:
+
+Classe a ser testada :  Classe.java
+```java
+public class Classe {
+  
+}
+```
+
+Classe de testes : ClasseTest.java
+```java
+public class ClasseTest {
+ 
+}
+```
 
 ### Nome de métodos
+
 
 ## Framework
 - @Test
