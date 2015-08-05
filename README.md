@@ -10,16 +10,16 @@ Treinamento JUnit - Academia S2IT
 O nome da classe de teste deve ser o nome da classe a ser testada seguido do sufixo Test.
 Ex.:
 
-Classe a ser testada :  Classe.java
+Classe a ser testada :  Person.java
 ```java
-public class Classe {
+public class Person {
   
 }
 ```
 
-Classe de testes : ClasseTest.java
+Classe de testes : PersonTest.java
 ```java
-public class ClasseTest {
+public class PersonTest {
  
 }
 ```
@@ -27,22 +27,22 @@ public class ClasseTest {
 ### Nome de métodos
 Os métodos a serem testados devem possuir o prefixo "test" e serem anotatos com @Test.
 
-Classe a ser testada :  Clazz.java
+Classe a ser testada :  Calculator.java
 ```java
-public class Clazz {
+public class Calculator {
   
-  public int functionSum(int a , int b){
+  public int sum(int a , int b){
   	return a+b;
   }
 }
 ```
 
-Classe de testes : ClazzTest.java
+Classe de testes : CalculatorTest.java
 ```java
-public class ClazzTest {
+public class CalculatorTest {
   
   @Test
-  public void testFunctionSum(){
+  public void testSum(){
   	//Teste da função de soma
   } 
 }
@@ -50,7 +50,7 @@ public class ClazzTest {
 Outra pratica que vem ganhando espaço com praticas de BDD, é iniciar os testes com "should", mas neste caso devemos descrever um cenário.
 
 ```java
-public class ClazzTest {
+public class CalculatorTest {
   
   @Test
   public void shouldSumTwoNumbers(){
