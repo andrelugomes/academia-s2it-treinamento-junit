@@ -25,7 +25,43 @@ public class ClasseTest {
 ```
 
 ### Nome de métodos
+Os métodos a serem testados devem possuir o prefixo "test" e serem anotatos com @Test.
 
+Classe a ser testada :  Clazz.java
+```java
+public class Clazz {
+  
+  public int functionSum(int a , int b){
+  	return a+b;
+  }
+}
+```
+
+Classe de testes : ClazzTest.java
+```java
+public class ClazzTest {
+  
+  @Test
+  public void testFunctionSum(){
+  	//Teste da função de soma
+  } 
+}
+```
+Outra pratica que vem ganhando espaço com praticas de BDD, é iniciar os testes com "should", mas neste caso devemos descrever um cenário.
+
+```java
+public class ClazzTest {
+  
+  @Test
+  public void shouldSumTwoNumbers(){
+  	//Teste da função de soma
+  } 
+  @Test
+  public void shouldSumWithZero(){
+  	//Teste da função de soma com Zero
+  } 
+}
+```
 
 ## Framework
 - @Test
