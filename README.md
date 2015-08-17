@@ -4,7 +4,10 @@ Treinamento JUnit - Academia S2IT
 # JUnit
 [http://junit.org/]
 
-## Convensções
+[FAQ](http://junit.org/faq.html)
+
+## Convenções
+
 
 ### Nome de Classes
 O nome da classe de teste deve ser o nome da classe a ser testada seguido do sufixo Test.
@@ -62,6 +65,7 @@ public class CalculatorTest {
   } 
 }
 ```
+[referência](http://stackoverflow.com/questions/4491952/prefix-for-testing-methods-in-unit-test-vs-should)
 
 ## Framework
 - @Test
@@ -76,7 +80,7 @@ public class CalculatorTest {
 - @Test(expected = Exception.class)
 
 # Hamcrest
-[https://code.google.com/p/hamcrest/wiki/Tutorial]
+[Tutorial](https://code.google.com/p/hamcrest/wiki/Tutorial)
 
 - Matchers
 
@@ -102,6 +106,10 @@ Injeção de dependências.
 ## Tests
 - @RunWith(SpringJUnit4ClassRunner.class)
 - @ContextConfiguration(classes=AppConfig.class)
+
+# TDD
+- [TDD - Caelum](http://tdd.caelum.com.br/)
+- [TDD - Algaworks - Video](http://cafe.algaworks.com/palestra-tdd/?inf_contact_key=3a275e7555d8cad11da74a6ee96fadddda952b11bc6498468b5409ab26d7e736)
 
 # Maven
 - Build lifecycle [Documentação oficial](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
