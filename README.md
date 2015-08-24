@@ -135,3 +135,30 @@ Injeção de dependências.
 	```console
 		mvn test
 	```
+# Cobertura
+
+## EclEmma
+EclEmma is a free Java code coverage tool for Eclipse, available under the Eclipse Public License. It brings code coverage analysis directly into the Eclipse workbench:
+Since version 2.0 EclEmma is based on the JaCoCo code coverage library. 
+
+- [Instalação](http://www.eclemma.org/installation.html)
+
+## JaCoCo
+[JaCoCo is a free code coverage library for Java, which has been created by the EclEmma team based on the lessons learned from using and integration existing libraries for many years.](http://www.eclemma.org/jacoco/)
+
+### Color Code
+[http://www.eclemma.org/userdoc/annotations.html]
+
+- Green for fully covered lines,
+- Yellow for partly covered lines (some instructions or branches missed) and
+- Red for lines that have not been executed at all.
+
+### Counters
+[http://www.eclemma.org/jacoco/trunk/doc/counters.html]
+
+- Instructions
+- Branches 
+- Cyclomatic Complexity
+- Lines
+- Methods
+- Classes
